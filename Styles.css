@@ -1,0 +1,72 @@
+/* styles.css */
+
+        /* Reset CSS para una apariencia consistente en todos los navegadores */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: #00000088;
+            margin: 20px;
+        }
+        
+        header {
+            background: #1e12c550;
+            color: #df5e13;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin-bottom: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        
+        nav ul li a {
+            color: #e625a585;
+            text-decoration: none;
+        }
+        
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+        
+        main {
+            margin-top: 20px;
+        }
+        
+        section {
+            background: #0cd11c2c;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 5px;
+        }
+        
+        section h2 {
+            margin-bottom: 10px;
+        }
+        
+        form label {
+            display: block;
+            margin-top: 10px;
+        }
+        
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+        }
